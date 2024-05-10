@@ -116,7 +116,8 @@ body {
 .template-main-image {
     width: 100%;
     min-height: 600px;
-    background-size: cover;
+    background-size: 80%;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -166,5 +167,11 @@ body {
             -webkit-transform: scale(1.01); /* Safari 3-8 */
             transform: scale(1.03);
         }
+    }
+
+    .back-img {
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
     }
 }
