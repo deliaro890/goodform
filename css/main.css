@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
+    /*font-family: "Montserrat", sans-serif;*/
+    font-family: helvetica, arial, sans-serif;
 }
 
 .brand img{
@@ -139,7 +140,8 @@
     text-transform: uppercase;
 }
 .sub-section-title{
-    font-family: "Playfair Display", serif;
+    /* font-family: "Playfair Display", serif; */
+    font-family: helvetica, arial, sans-serif;
     color:#595757;
 }
 .contact-section{
