@@ -171,3 +171,43 @@
     border-radius: 8px;
     margin: 8px;
 }
+
+@media (min-width: 768px) {
+    .carousel-inner img{
+        height: 950px;
+    }
+
+    .portfolio-works{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .portfolio-image{
+        width: 300px;
+    }
+    .template-main-image{
+        background-size: contain;
+        height: auto;
+    }
+    .template-content{
+        top:733px;
+    }
+    .template-gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .subtitle_section{
+        font-size: 19px;
+    }
+    .title_section{
+        font-size: 32px;
+    }
+    .description{
+        font-size: 20px;
+        padding: 49px;
+    }
+}
+
